@@ -11,8 +11,8 @@ import {
 import { ArticlesService } from './articles.service';
 
 // Guards
-import { RolesGuard } from '../../guards/roles.guard';
-import { Roles } from '../../decorators/roles.decorator';
+import { RolesGuard } from '../../common/guards/roles.guard';
+import { Roles } from '../../common/decorators/roles.decorator';
 
 import { ArticlesGateway } from '../articles/articles.gateway';
 

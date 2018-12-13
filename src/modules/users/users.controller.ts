@@ -16,8 +16,8 @@ import { AuthService } from '../auth/auth.service';
 import { IToken } from '../auth/interfaces/token.interface';
 
 // Guards
-import { RolesGuard } from '../../guards/roles.guard';
-import { Roles } from '../../decorators/roles.decorator';
+import { RolesGuard } from '../../common/guards/roles.guard';
+import { Roles } from '../../common/decorators/roles.decorator';
 
 import { MulterConfig } from '../../config/multer';
 

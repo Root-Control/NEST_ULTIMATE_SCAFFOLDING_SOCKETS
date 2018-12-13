@@ -1,5 +1,5 @@
 import { EnvironmentService } from '../environment.variables';
-import { extractKey } from '../utilities/keys';
+import { extractKey } from '../common/utilities/keys';
 
 let environmentService = new EnvironmentService('.env');
 //  Creamos la interface del environment

@@ -15,7 +15,7 @@ import { IToken } from './interfaces/token.interface';
 import { IFacebookConfig } from './interfaces/facebook-config.interface';
 import { ITwitterConfig } from './interfaces/twitter-config.interface';
 import { IGoogleConfig } from './interfaces/google-config.interface';
-import { generateHashedPassword, generateSalt } from '../../utilities/encryption';
+import { generateHashedPassword, generateSalt } from '../../common/utilities/encryption';
 
 @Injectable()
 export class AuthService {

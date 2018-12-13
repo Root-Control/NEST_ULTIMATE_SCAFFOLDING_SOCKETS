@@ -1,12 +1,6 @@
 import { Injectable, CanActivate, ExecutionContext, Inject } from '@nestjs/common';
 import { Reflector } from '@nestjs/core';
 
-import { IUser } from '../modules/users/interfaces/user.interface';
-import { Model } from 'mongoose';
-import { USER_MODEL_TOKEN, SERVER_CONFIG } from '../server.constants';
-
-import { verify } from 'jsonwebtoken';
-
 @Injectable()
 export class RolesGuard implements CanActivate {
   constructor(private readonly reflector: Reflector) {}

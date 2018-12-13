@@ -4,7 +4,7 @@ import { use } from 'passport';
 import { Strategy } from 'passport-local';
 
 import { IUser } from '../../users/interfaces/user.interface';
-import { generateHashedPassword, generateSalt } from '../../../utilities/encryption';
+import { generateHashedPassword, generateSalt } from '../../../common/utilities/encryption';
 import { MESSAGES, USER_MODEL_TOKEN } from '../../../server.constants';
 
 @Injectable()
